@@ -1,0 +1,13 @@
+query {
+    country(code: "US") {
+        name
+        states {
+            name
+            code
+        }
+        subdivisions {
+            name
+            emoji
+        }
+    }
+}

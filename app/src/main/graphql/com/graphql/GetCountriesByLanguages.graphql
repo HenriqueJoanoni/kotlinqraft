@@ -1,0 +1,11 @@
+query {
+    languages(filter: { code: { in: ["en", "fr", "es"] } }) {
+        name
+        native
+        rtl
+        countries {
+            name
+            capital
+        }
+    }
+}

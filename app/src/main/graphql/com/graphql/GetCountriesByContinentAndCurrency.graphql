@@ -1,0 +1,7 @@
+query {
+    countries(filter: { continent: { eq: "AS" }, currency: { eq: "PHP" } }) {
+        name
+        capital
+        currencies
+    }
+}

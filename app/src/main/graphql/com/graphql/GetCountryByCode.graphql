@@ -1,0 +1,14 @@
+query {
+    country(code: "US") {
+        name
+        capital
+        continent {
+            name
+        }
+        currencies
+        languages {
+            name
+            native
+        }
+    }
+}
