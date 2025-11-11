@@ -56,7 +56,7 @@ apollo{
 
 dependencies {
     implementation("com.apollographql.apollo:apollo-runtime:4.3.3")
-    implementation("com.squareup.okhttp3:okhttp:1")
+    implementation("com.squareup.okhttp3:okhttp:5.3.0")
     implementation("com.squareup.okhttp3:logging-interceptor:5.3.0")
     implementation("com.google.dagger:hilt-android:2.57.2")
     kapt("com.google.dagger:hilt-compiler:2.57.2")

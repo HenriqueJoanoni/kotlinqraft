@@ -1,4 +1,4 @@
-query {
+query GetCountriesByContinentAndCurrency {
     countries(filter: { continent: { eq: "AS" }, currency: { eq: "PHP" } }) {
         name
         capital

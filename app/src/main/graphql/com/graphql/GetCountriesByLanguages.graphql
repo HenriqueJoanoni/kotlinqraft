@@ -1,4 +1,4 @@
-query {
+query GetCountriesByLanguages {
     languages(filter: { code: { in: ["en", "fr", "es"] } }) {
         name
         native

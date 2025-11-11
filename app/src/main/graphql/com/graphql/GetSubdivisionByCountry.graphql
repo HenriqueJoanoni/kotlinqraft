@@ -1,4 +1,4 @@
-query {
+query GetSubdivisionByCountry {
     country(code: "US") {
         name
         states {

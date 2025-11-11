@@ -1,4 +1,4 @@
-query {
+query GetCountryByCode {
     country(code: "US") {
         name
         capital
